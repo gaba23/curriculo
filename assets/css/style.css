@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 166, 171, 80%);
+}
+
+h1, h2, p, svg, a, p {
+    color: #000000;
+}
+
+.curriculo {
+    display: flex;
+    border: 1px solid black;
+    width: 900px;
+    height: 715px;
+    margin: 30px 15px;
+    flex-direction: column;
+    background-color: white;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40%;
+    border-bottom: 5px solid black;
+    width: 86.5%;
+    align-self: center;
+}
+
+.informacoes {
+    display: flex;
+    margin: 20px 25px;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+.informacoes h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.informacoes h2{
+    font-size: 19px;
+    font-weight: bold;
+    padding: 5px 5px;
+}
+
+.curriculo h1, h2{
+    display: inline-block;
+    height: fit-content;
+}
+
+.foto{
+    display: flex;
+    padding-top: 50px;
+    width: 20%;
+    height: 60%;
+    justify-content: center;
+}
+
+.moradia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self:flex-start;
+}
+
+.section1, .section2{
+    display: flex;
+    flex-direction: row;
+    padding: 35px 25px 35px 25px;
+    justify-content: space-around;
+}
+
+.section1 div div, .section2 div div{
+    border-top: 1px solid black;
+    width: 340px;
+}
+
+.divdasection {
+    flex-direction: initial;
+    width: 40%;
+}
+
+.divdasection h2 {
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: #F36F63;
+    padding: 1px 5px;
+    width: 330px;
+    color: #222222;
+}
+
+.divdasection p{
+    font-size: 18px;
+}
+
+.divdasection p:before {
+    content: "•";
+    padding-right: 3px;
+}
