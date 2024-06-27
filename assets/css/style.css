@@ -12,7 +12,7 @@ h1, h2, p, svg, a, p {
     display: flex;
     border: 1px solid black;
     width: 900px;
-    height: 715px;
+    height: 815px;
     margin: 30px 15px;
     flex-direction: column;
     background-color: white;
